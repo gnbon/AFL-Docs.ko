@@ -9,6 +9,13 @@
 5. git push origin master 자신의 저장소에 푸시
 6. 원본 저장소로 pull-request
 
+두번째 pull-request부터는 1. 2. 를 생략하고, 아래 명령어 이후 3. 부터 진행합니다!
+```bash
+    git remote add upstream https://github.com/gnbon/AFL-Docs.ko.git
+    git fetch upstream
+    git merge upstream/master
+```
+
 ## Guideline
 * 1)커버리지 측정을 참고하세요!
 * 제목은 h3(###)및 영어로, 다음 줄은 ---(줄 변경)으로 바꿔주세요!
