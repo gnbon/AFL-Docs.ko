@@ -17,7 +17,7 @@
 
 ## Commit example
 ```bash
-    git commit -m "translate:0) Design statement"
+    git commit -m "translate:00-design_statement.md"
 ```
 ### 참고: git 버전관리
 http://forum.openframeworks.kr/t/1-git/81

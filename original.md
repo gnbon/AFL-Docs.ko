@@ -1,6 +1,6 @@
-===================================
-Technical "whitepaper" for afl-fuzz
-===================================
+### ===================================
+### Technical "whitepaper" for afl-fuzz
+### ===================================
 
   This document provides a quick overview of the guts of American Fuzzy Lop.
   See README for the general instruction manual; and for a discussion of
