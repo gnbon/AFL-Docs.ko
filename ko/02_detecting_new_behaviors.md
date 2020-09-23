@@ -1,5 +1,7 @@
 ### 2) Detecting new behaviors
 ---
+The fuzzer maintains a global map of tuples seen in previous executions; this data can be rapidly compared with individual traces and updated in just a couple of dword- or qword-wide instructions and a simple loop.
+
 튜블의 글로벌 맵(데이터)은 individual traces들이랑 빠르게 비교되기 + dword나 qword-wide instruction들과 간단한 loop로 업데이트될 수 있다.
 
 mutated input은 execution trace(글로벌 맵에 들어가는 튜플을 포함한, 이 튜플들로 갈색을 할 수 있다.)를 만들고 인풋파일은 보존되고, 나중에 추가적인 실행을 위해 쓰인다.
